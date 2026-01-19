@@ -387,7 +387,7 @@
 .featured-host {
     border: 1px solid red;
     background-color: #1A0B2E;
-    padding-top: 50px;
+    padding-top: 120px;
     padding-bottom: 120px;
     max-width: 1600px;
     margin: 0 auto;
@@ -491,7 +491,6 @@
     display: flex;
     gap: 8px;
     align-items: center;
-    justify-content: center;
 }
 
 .circle {
@@ -615,9 +614,7 @@ opacity: 0.6;
 
 
     /* hero */
-#banner{
-    
-}
+
     .banner-main {
         width: 100%;
     }
@@ -735,6 +732,10 @@ line-height: 24px;
     .host-info h2 {
         font-size: 24px;
         line-height: 29px;
+    }
+
+    .host-info .icon{
+        justify-content: center;
     }
 
 
