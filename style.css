@@ -72,7 +72,7 @@
 }
 
 
-/* banner */
+                                /* banner */
 
 
 #banner {
@@ -124,7 +124,6 @@
     left: 75px;
     width: 200px;
     height: 200px;
-    z-index: 1;
     display: flex;              
     justify-content: center;    
     align-items: center;
@@ -150,6 +149,7 @@ text-align: center;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    opacity: 0.8;
     text-align: center;
     border: 1px solid red;
 }
@@ -186,3 +186,164 @@ text-align: center;
 .btn2:hover {
     background-color: #ffffff27;
 }
+
+                          /* main section */
+
+                          
+ /* podcast section */
+
+.podcast{
+    border: 1px solid red;
+    background-color: #1A0B2E;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.podcast-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.about-podcast{
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.about-podcast h1{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.about-podcast p{
+    margin-top: 16px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.8;
+}
+
+.podcast-container hr{
+    margin-top: 80px;
+    background: 1px solid #FFFFFF;
+    opacity: 0.1;
+}
+
+.podcast-card{
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+
+}
+
+.podcast-card .card{
+    border: 1px solid red;
+}
+
+.podcast-card .card h1{
+    font-size: 48px;
+font-weight: 900;
+line-height: 58px;
+text-align: center;
+color: #00FF88;
+}
+
+.podcast-card .card p{
+margin-top: 16px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+opacity: 0.8;
+}
+
+
+.choose{
+    border: 1px solid red;
+    background-color: #230E3D;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.choose-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.choose-container h1{
+    font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+text-align: center;
+color: #FFFFFF;
+border: 1px solid red;
+}
+
+.card-container{
+    border: 1px solid red;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card1{
+    grid-row: span 2;
+}
+.card2{
+    grid-column: span 2;
+}
+.card3{
+    grid-column: span 2;
+}
+.card4{
+    grid-column: span 2;
+}
+
+
+/* shared card class */
+
+.choose-card{
+gap: 16px;
+padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+border-radius: 40px;
+background-color: rgba(53, 17, 101, 0.4);
+}
+
+.choose-card h4{
+    margin-top: 16px;
+    font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+color: #FFFFFF;
+}
+
+.choose-card p{
+    margin-top: 16px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+
