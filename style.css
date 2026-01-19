@@ -11,6 +11,51 @@
     padding: 0;
 }
 
+/* shared class */
+
+.choose-card {
+    gap: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+}
+
+.text-color {
+    background: linear-gradient(rgba(247, 233, 63, 1),
+            rgba(251, 9, 180, 1),
+            rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*source from GEEKSFORGEEKS */
+}
+
+.btn {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+    border-radius: 10000px;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    padding: 12px 16px;
+}
+
+.btn:hover {
+    background: linear-gradient(
+        47.64deg,
+        rgba(145, 0, 248, 1),
+        rgba(251, 9, 180, 1),
+        rgba(247, 233, 63, 1)
+    );
+}
+
+
+                               /* header div */
 .navbar {
     padding: 16px 0px;
     border: 1px solid red;
@@ -34,14 +79,6 @@
     color: #FFFFFF;
 }
 
-.text-color {
-    background: linear-gradient(rgba(247, 233, 63, 1),
-            rgba(251, 9, 180, 1),
-            rgba(145, 0, 248, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /*source from GEEKSFORGEEKS */
-}
 
 .nav-link {
     display: flex;
@@ -55,19 +92,6 @@
     color: #FFFFFF;
     font-weight: 500;
     line-height: 120%;
-}
-
-.btn {
-    border: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: flex;
-    gap: 4px;
-    border-radius: 10000px;
-    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
-    padding: 12px 16px;
 }
 
 
@@ -129,11 +153,33 @@
     border: 1px solid red;
 }
 
+
 .banner-card .front-image img {
-    max-width: 116.67px;
-    height: 174px;
+    animation: mic 1.2s ease-in-out 0s infinite alternate;
 }
 
+@keyframes mic {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.badge{
+    padding: 8px 16px;
+    border-radius: 1000px;
+    background-color: #00FF88;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #1A0B2E;
+    position: absolute;
+    top: 12px;
+    left: 252px;
+    border: none;
+}
 
 .story h1 {
     font-size: 60px;
@@ -186,7 +232,7 @@
     background-color: #ffffff27;
 }
 
-/* main section */
+                                 /* main section */
 
 
 /* podcast section */
@@ -215,7 +261,6 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    letter-spacing: 0%;
     text-align: center;
     color: #FFFFFF;
 }
@@ -232,6 +277,7 @@
 
 .podcast-container hr {
     margin-top: 80px;
+    margin-bottom: 80px;
     background: 1px solid #FFFFFF;
     opacity: 0.1;
 }
@@ -239,7 +285,6 @@
 .podcast-card {
     border: 1px solid red;
     margin: 0 auto;
-    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 80px;
@@ -319,18 +364,6 @@
 }
 
 
-/* shared card class */
-
-.choose-card {
-    gap: 16px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 40px;
-    background-color: rgba(53, 17, 101, 0.4);
-}
-
 .choose-card h4 {
     font-size: 24px;
     font-weight: 700;
@@ -376,6 +409,8 @@
     margin-top: 40px;
     border: 1px solid red;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -386,8 +421,10 @@
 }
 
 .featured-info {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 24px;
+    background-color: #250D44;
+    border-radius: 0px 0px 24px 24px;
 }
 
 .featured-info h3 {
@@ -395,10 +432,10 @@
     font-weight: 700;
     line-height: 29px;
     color: #FFFFFF;
+    margin-bottom: 12px;
 }
 
 .featured-info p {
-    margin-top: 12px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -410,6 +447,8 @@
     display: flex;
     align-items: center;
     gap: 6px;
+    color: #00FF88;
+    opacity: 100%;
 }
 
 .host-head {
@@ -530,3 +569,85 @@ line-height: 24px;
 color: #FFFFFF;
 opacity: 0.6;
 }
+
+
+
+
+
+
+                                 /* responsive */
+
+@media screen and (max-width: 576px){
+
+/* shared css */
+
+    .podcast, .choose, .featured-host {
+        padding: 40px 20px;
+        width: 100%;
+    }
+
+    .about-podcast h1, .choose-container h1, .featured-host-container h1  {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .card-container,.featured {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+
+
+
+    /* podcast */
+    
+    .about-podcast .pera{
+        margin-top: 16px;
+        text-align: center;
+    }
+    .about-podcast .pera p{
+        display: inline;
+    }
+
+    .about-podcast p{
+        margin-top: 0px;
+    }
+    .podcast-container hr{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .podcast-card {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .podcast-card .card h1 {
+        font-size: 36px;
+    }
+
+ /* choose container */
+
+    .choose-card {
+        padding: 28px;
+        border-radius: 28px;
+    }
+
+    /* ================= FEATURED ================= */
+    .featured {
+        margin-top: 24px;
+    }
+
+    .featured-card iframe {
+        width: 100%;
+        height: 225px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .featured-info {
+        border-radius: 0 0 20px 20px;
+    }
+
+}
+                                
