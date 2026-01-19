@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 * {
@@ -15,7 +14,8 @@
 .navbar {
     padding: 16px 0px;
     border: 1px solid red;
-    background-color:#1A0B2E;;
+    background-color: #1A0B2E;
+    ;
 }
 
 .nav-container {
@@ -28,20 +28,19 @@
 }
 
 
-.nav-container h1{
+.nav-container h1 {
     border: 1px solid red;
     font-weight: 900;
     color: #FFFFFF;
 }
 
-.nav-container h1 .text-color{
-    background: linear-gradient(
-    rgba(247, 233, 63, 1),
-    rgba(251, 9, 180, 1),
-    rgba(145, 0, 248, 1)
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /*source from GEEKSFORGEEKS */
+.nav-container h1 .text-color {
+    background: linear-gradient(rgba(247, 233, 63, 1),
+            rgba(251, 9, 180, 1),
+            rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*source from GEEKSFORGEEKS */
 }
 
 .nav-link {
@@ -58,7 +57,7 @@
     line-height: 120%;
 }
 
-.btn{
+.btn {
     border: none;
     font-size: 16px;
     font-weight: 600;
@@ -67,12 +66,12 @@
     display: flex;
     gap: 4px;
     border-radius: 10000px;
-    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
     padding: 12px 16px;
 }
 
 
-                                /* banner */
+/* banner */
 
 
 #banner {
@@ -124,10 +123,10 @@
     left: 75px;
     width: 200px;
     height: 200px;
-    display: flex;              
-    justify-content: center;    
+    display: flex;
+    justify-content: center;
     align-items: center;
-    border: 1px solid red;        
+    border: 1px solid red;
 }
 
 .banner-card .front-image img {
@@ -138,13 +137,13 @@
 
 .story h1 {
     font-size: 60px;
-font-weight: 800;
-line-height: 73px;
-color: #FFFFFF;
-text-align: center;
+    font-weight: 800;
+    line-height: 73px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-.story p{
+.story p {
     margin-top: 8px;
     font-size: 16px;
     line-height: 19px;
@@ -164,7 +163,7 @@ text-align: center;
     border: 1px solid red;
 }
 
-.btn1{
+.btn1 {
     line-height: 19px;
     padding: 12px 16px;
     gap: 8px;
@@ -187,12 +186,12 @@ text-align: center;
     background-color: #ffffff27;
 }
 
-                          /* main section */
+/* main section */
 
-                          
- /* podcast section */
 
-.podcast{
+/* podcast section */
+
+.podcast {
     border: 1px solid red;
     background-color: #1A0B2E;
     padding-top: 50px;
@@ -201,43 +200,43 @@ text-align: center;
     margin: 0 auto;
 }
 
-.podcast-container{
+.podcast-container {
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid red;
 }
 
-.about-podcast{
+.about-podcast {
     margin: 0 auto;
     border: 1px solid red;
 }
 
-.about-podcast h1{
+.about-podcast h1 {
     font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0%;
-text-align: center;
-color: #FFFFFF;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.about-podcast p{
+.about-podcast p {
     margin-top: 16px;
     font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-opacity: 0.8;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
 
-.podcast-container hr{
+.podcast-container hr {
     margin-top: 80px;
     background: 1px solid #FFFFFF;
     opacity: 0.1;
 }
 
-.podcast-card{
+.podcast-card {
     border: 1px solid red;
     margin: 0 auto;
     margin-top: 80px;
@@ -247,30 +246,30 @@ opacity: 0.8;
 
 }
 
-.podcast-card .card{
+.podcast-card .card {
     border: 1px solid red;
 }
 
-.podcast-card .card h1{
+.podcast-card .card h1 {
     font-size: 48px;
-font-weight: 900;
-line-height: 58px;
-text-align: center;
-color: #00FF88;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: center;
+    color: #00FF88;
 }
 
-.podcast-card .card p{
-margin-top: 16px;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
-opacity: 0.8;
+.podcast-card .card p {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
 }
 
 
-.choose{
+.choose {
     border: 1px solid red;
     background-color: #230E3D;
     padding-top: 120px;
@@ -279,71 +278,189 @@ opacity: 0.8;
     margin: 0 auto;
 }
 
-.choose-container{
+.choose-container {
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid red;
 }
 
-.choose-container h1{
+.choose-container h1 {
     font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-text-align: center;
-color: #FFFFFF;
-border: 1px solid red;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid red;
 }
 
-.card-container{
+.card-container {
     border: 1px solid red;
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
 }
 
-.card1{
+.card1 {
     grid-row: span 2;
 }
-.card2{
+
+.card2 {
     grid-column: span 2;
 }
-.card3{
+
+.card3 {
     grid-column: span 2;
 }
-.card4{
+
+.card4 {
     grid-column: span 2;
 }
 
 
 /* shared card class */
 
-.choose-card{
-gap: 16px;
-padding: 40px;
+.choose-card {
+    gap: 16px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-border-radius: 40px;
-background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
 }
 
-.choose-card h4{
-    margin-top: 16px;
+.choose-card h4 {
     font-size: 24px;
-font-weight: 700;
-line-height: 29px;
-color: #FFFFFF;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
 }
 
-.choose-card p{
+.choose-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+/* featured-host divition */
+
+.featured-host {
+    border: 1px solid red;
+    background-color: #1A0B2E;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.featured-host-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.featured-host-container h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.featured {
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid red;
+    display: flex;
+    gap: 30px;
+}
+
+.featured-card iframe {
+    width: 380px;
+    height: 214px;
+    border-radius: 24px 24px 0 0;
+}
+
+.featured-info {
+    border: 1px solid red;
+    padding: 24px;
+}
+
+.featured-info h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.featured-info p {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.featured-info .time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.host-head {
+    margin-top: 120px;
+}
+
+.Host {
+    border: 1px solid red;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+}
+
+.host-info h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.host-info p {
     margin-top: 16px;
     font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-color: #FFFFFF;
-opacity: 0.6;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.6;
 }
 
+.icon {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
 
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #533C72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: auto;
+    height: auto;
+}
