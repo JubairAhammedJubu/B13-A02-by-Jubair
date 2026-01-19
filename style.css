@@ -34,7 +34,7 @@
     color: #FFFFFF;
 }
 
-.nav-container h1 .text-color {
+.text-color {
     background: linear-gradient(rgba(247, 233, 63, 1),
             rgba(251, 9, 180, 1),
             rgba(145, 0, 248, 1));
@@ -443,7 +443,7 @@
     opacity: 0.6;
 }
 
-.icon {
+.host-info .icon {
     margin-top: 16px;
     display: flex;
     gap: 8px;
@@ -463,4 +463,70 @@
 .circle img {
     width: auto;
     height: auto;
+}
+
+
+/* footer divition */
+
+.foot-section{
+    background: url(./assets/footer-bg.png);
+    background-position: center center;
+    padding: 120px 0;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.foot-container{
+        max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border: 1px solid red;
+}
+
+.foot-container h1{
+    font-size: 80px;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+.social{
+    display: flex;
+    gap: 40px;
+}
+
+.social-icon{
+    display: flex;
+    gap: 40px;
+}
+
+.social-icon li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-icon li p{
+    font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+.foot-container p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #FFFFFF;
+opacity: 0.6;
 }
