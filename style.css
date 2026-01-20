@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 
-/* shared class */
+                            /* shared CSS */
 
 .choose-card {
     gap: 1rem;
@@ -58,7 +58,7 @@
 /* header div */
 .navbar {
     padding: 1rem 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #1A0B2E;
     ;
 }
@@ -69,12 +69,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
 .nav-container h1 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 2.9rem;
     color: #FFFFFF;
 }
@@ -113,14 +113,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
 .banner-main {
     max-width: 550px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,7 +138,7 @@
     width: 350px;
     height: 350px;
     margin: 0px auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .banner-card .back-image img {
@@ -155,7 +155,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -204,7 +204,7 @@
     color: #FFFFFF;
     opacity: 0.8;
     text-align: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .btn-center {
@@ -214,7 +214,7 @@
     gap: 0.5rem;
     max-width: 356px;
     margin-top: 1.5rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .btn1 {
@@ -241,14 +241,14 @@
     background-color: #ffffff27;
 }
 
-                                 
-                              /* main section */
+
+                               /* main section */
 
 
 /* podcast section */
 
 .podcast {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #1A0B2E;
     padding-top: 50px;
     padding-bottom: 120px;
@@ -259,12 +259,12 @@
 .podcast-container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about-podcast {
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about-podcast h1 {
@@ -293,7 +293,7 @@
 }
 
 .podcast-card {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -302,7 +302,7 @@
 }
 
 .podcast-card .card {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .podcast-card .card h1 {
@@ -325,7 +325,7 @@
 
 
 .choose {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #230E3D;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -336,7 +336,7 @@
 .choose-container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .choose-container h1 {
@@ -345,11 +345,11 @@
     line-height: 3.6rem;
     text-align: center;
     color: #FFFFFF;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .card-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -392,7 +392,7 @@
 /* featured-host divition */
 
 .featured-host {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #1A0B2E;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -403,7 +403,7 @@
 .featured-host-container {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .featured-host-container h1 {
@@ -417,7 +417,7 @@
 .featured {
     margin: 0 auto;
     margin-top: 2.5rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.9rem;
@@ -433,21 +433,6 @@
     height: 214px;
     display: block;
     border-radius: 24px 24px 0 0;
-}
-
-
-.video-wrapper {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 24px 24px 0 0;
-    line-height: 0;        
-}
-
-.video-wrapper iframe {
-    display: block;
-    width: 100%;
-    height: 215px;
-    border: 0;
 }
 
 
@@ -488,7 +473,7 @@
 }
 
 .Host {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 2.5rem;
     padding: 2.5rem;
     display: flex;
@@ -547,17 +532,18 @@
     width: 100%;
     min-height: 412px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .foot-container {
     max-width: 1360px;
     width: 100%;
-    margin: 80px auto;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin: auto;
     /* border: 1px solid red; */
 }
 
@@ -586,7 +572,7 @@
 }
 
 .social-icon li p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 19px;
     color: #FFFFFF;
@@ -606,7 +592,8 @@
 
 
 
-                                /* responsive for mobile*/
+                          /* responsive for mobile*/
+
 
 @media screen and (max-width: 576px) {
 
@@ -666,10 +653,9 @@
 
     /* hero */
 
-    #banner{
-        min-height: 0;      
+    #banner {
+        min-height: 0;
         background-size: cover;
-        /* background-size: contain; */
         background-position: center;
     }
 
@@ -760,6 +746,7 @@
 
 
     /* featured container */
+
     .featured {
         margin-top: 24px;
     }
@@ -785,6 +772,7 @@
 
 
     /* host div */
+
     .host-head {
         margin-top: 5rem;
     }
@@ -812,18 +800,16 @@
     /* footer */
 
     .foot-section {
-    background-size: 100% 100%;
-    max-width: 576px;
-    min-height: 0px;
-    border: 1px solid red;
-}
+        background-size: 100% 100%;
+        max-width: 576px;
+        min-height: 0px;
+    }
 
-.foot-container {
-    max-width: 576px;
-    margin:40px auto;
-    gap: 24px;
-}
-
+    .foot-container {
+        max-width: 576px;
+        padding: 40px 20px;
+        gap: 24px;
+    }
 
     .foot-container h1 {
         font-size: 45px;
@@ -839,32 +825,43 @@
         align-items: center;
         gap: 1rem;
     }
+
+    .foot-container p {
+        font-size: 1rem;
+    }
 }
 
 
 
-/* medium device */
+                                     /* medium device */
 
-@media screen and (min-width:576px) and (max-width:992px){
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
 
     /* shared css */
-        
-    .podcast, .choose, .featured-host, #banner {
-        padding: 50px 40px;
+
+    .podcast,
+    .choose,
+    .featured-host,
+    #banner {
+        padding: 3.1rem 2.5rem;
         width: 100%;
     }
 
     .about-podcast h1,
     .choose-container h1,
     .featured-host-container h1 {
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 2.5rem;
+        line-height: 3rem;
     }
-        
-    .navbar{
-        padding: 30px 20px 0 ;
+
+    .navbar {
+        padding: 30px 20px 0;
         width: 100%;
     }
+
     .banner-info {
         gap: 32px;
     }
@@ -881,13 +878,14 @@
         height: 140px;
     }
 
-        .banner-card .front-image img {
+    .banner-card .front-image img {
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
 
-    .podcast-container hr, .host-head ,.foot-container {
+    .podcast-container hr,
+    .host-head {
         margin-top: 60px;
         margin-bottom: 60px;
     }
@@ -897,22 +895,23 @@
         gap: 60px;
     }
 
-    .card-container, .featured {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 25px;
+    .card-container,
+    .featured {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 25px;
     }
 
-    .choose-card{
+    .choose-card {
         grid-row: span 1;
         grid-column: span 1;
     }
 
-    .foot-section{
+    .foot-section {
         min-height: 350px;
     }
-    .foot-container h1{
-        font-size: 65px;
+
+    .foot-container h1 {
+        font-size: 4rem;
     }
 }
- 
