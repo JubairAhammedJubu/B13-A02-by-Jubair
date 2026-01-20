@@ -885,6 +885,13 @@
         object-fit: contain;
     }
 
+    .badge {
+        top: 7px;
+        left: 185px;
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
     .podcast-container hr,
     .host-head {
         margin-top: 60px;
