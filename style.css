@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* shared class */
@@ -104,7 +105,8 @@
 #banner {
     background: url("./assets/hero-bg.png") no-repeat;
     background-position: center center;
-    height: 760px;
+    background-size: cover;
+    min-height: 760px;
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
@@ -155,7 +157,6 @@
     align-items: center;
     border: 1px solid red;
 }
-
 
 
 .banner-card .front-image img {
@@ -240,7 +241,8 @@
     background-color: #ffffff27;
 }
 
-/* main section */
+                                 
+                              /* main section */
 
 
 /* podcast section */
@@ -416,17 +418,38 @@
     margin: 0 auto;
     margin-top: 40px;
     border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+
+}
+
+.featured-card {
+    width: 100%;
 }
 
 .featured-card iframe {
-    width: 380px;
+    width: 100%;
     height: 214px;
+    display: block;
     border-radius: 24px 24px 0 0;
 }
+
+
+.video-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 24px 24px 0 0;
+    line-height: 0;        
+}
+
+.video-wrapper iframe {
+    display: block;
+    width: 100%;
+    height: 215px;
+    border: 0;
+}
+
 
 .featured-info {
     /* border: 1px solid red; */
@@ -517,32 +540,31 @@
 /* footer divition */
 
 .foot-section {
-    background: url(./assets/footer-bg.png);
+    background: url(./assets/footer-bg.png) no-repeat;
     background-position: center center;
-    padding: 120px 0;
+    background-size: cover;
     max-width: 1600px;
     width: 100%;
+    min-height: 412px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
     border: 1px solid red;
 }
 
 .foot-container {
     max-width: 1360px;
     width: 100%;
-    margin: 0 auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 32px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .foot-container h1 {
-    font-size: 87px;
+    font-size: 85px;
     color: #FFFFFF;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .social {
@@ -584,7 +606,7 @@
 
 
 
-                                    /* responsive for mobile*/
+                                /* responsive for mobile*/
 
 @media screen and (max-width: 576px) {
 
@@ -593,7 +615,7 @@
     .podcast,
     .choose,
     .featured-host,
-    .foot-section,
+    /* .foot-section, */
     #banner {
         padding: 40px 20px;
         width: 100%;
@@ -644,6 +666,13 @@
 
 
     /* hero */
+
+    #banner{
+        min-height: 0;      
+        background-size: cover;
+        /* background-size: contain; */
+        background-position: center;
+    }
 
     .banner-main {
         width: 100%;
@@ -739,6 +768,8 @@
     .featured-card iframe {
         width: 100%;
         height: 225px;
+        overflow: hidden;
+        line-height: 0;
     }
 
     .featured-info {
@@ -781,8 +812,22 @@
 
     /* footer */
 
+    .foot-section {
+    background-size: 100% 100%;
+    max-width: 576px;
+    min-height: 0px;
+    border: 1px solid red;
+}
+
+.foot-container {
+    max-width: 576px;
+    margin:40px auto;
+    gap: 24px;
+}
+
+
     .foot-container h1 {
-        font-size: 47px;
+        font-size: 45px;
     }
 
     .social {
@@ -796,3 +841,6 @@
         gap: 16px;
     }
 }
+
+
+
